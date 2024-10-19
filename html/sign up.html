@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BAZAAR</title>
+    <link href="logo.jpeg" type="image/x-icon" rel="icon" />
+  </head>
+  <body>
+    <!--info-->
+    <h1>Sign up</h1>
+    <form>
+      <div>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="Enter your Email" />
+      </div>
+      <br />
+      <div>
+        <label for="Username">Username</label>
+        <input
+          required
+          id="Username"
+          type="text"
+          placeholder="Enter your Username"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Password">Password</label>
+        <input
+          id="Password"
+          required
+          type="password"
+          placeholder="Enter your Password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Renter Password">Renter Password</label>
+        <input
+          id="Renter Password"
+          type="text"
+          placeholder="Renter your Password"
+        />
+      </div>
+      <br />
+      <label for="Date">Date</label>
+      <input id="Date" type="date" />
+      <br />
+      <br />
+      <h3>Country:</h3>
+      <label id="Country" for="Country">Country</label>
+      <select id="Country" name="Country">
+        <option value="Egypt">Egypt</option>
+        <option value="Spain">Spain</option>
+        <option value="Saudi arebia">Saudi arebia</option>
+        <option value="Iraq">Iraq</option>
+        <option value="Iran">Iran</option>
+        <option value="Morroco">Morroco</option>
+        <option value="German">German</option>
+        <option value="England">England</option>
+      </select>
+
+      <!--gender-->
+      <h3>Gender:</h3>
+      <input type="radio" name="Gender" value="male" />
+      <label>male</label>
+      <br /><br />
+      <input type="radio" name="Gender" value="female" />
+      <label>female</label>
+      <br /><br />
+      <!--checkbox-->
+      <h3>Terms:</h3>
+      <input for="accept1" type="checkbox" name="accept" value="accept1" />
+      <label id="accept1"
+        >Acceptance of Terms: By using this site, you acknowledge that you have
+        read, understood, and agree to these terms and conditions.</label
+      >
+      <br />
+      <input for="accept2" type="checkbox" name="accept" value="accept2" />
+      <label id="accept2"
+        >Privacy Policy: You agree to our Privacy Policy, which outlines how we
+        collect, use, and protect your personal information.
+      </label>
+      <br /><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
